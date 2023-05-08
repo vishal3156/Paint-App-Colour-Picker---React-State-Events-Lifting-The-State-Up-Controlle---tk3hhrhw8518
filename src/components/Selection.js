@@ -1,4 +1,6 @@
+import React from 'react';
 import "./styles/Child.css";
+
 const Selection = ({ applyColor }) => {
   return (
     <div className="fix-box" style={{ applyColor }}>
